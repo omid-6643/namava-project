@@ -2,8 +2,10 @@ import Slider from "../components/slider/Slider";
 
 const Home = () => {
   return (
-    <div>
-      <Slider />
+    <div className="container-fluid">
+      <div className="row">
+        <Slider />
+      </div>
     </div>
   );
 };
